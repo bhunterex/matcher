@@ -3,6 +3,10 @@ output parameter also remove port numbers
 ```
 match -f urls.txt -p "=" -r -v -o parameter_outputs.txt
 ```
+stdio mode usage
+```
+cat urls.txt | match -p "=" -r -v -o parameter_outputs.txt
+```
 ## installations
 ```
 cd /opt/ && sudo git clone https://github.com/bhunterex/matcher.git
